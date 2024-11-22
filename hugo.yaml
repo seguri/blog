@@ -2,3 +2,45 @@ baseURL: https://blog.seguri.dev
 languageCode: en-us
 title: Marco Seguri
 theme: PaperMod
+
+enableRobotsTXT: true
+enableEmoji: true
+
+minify:
+  minifyOutput: true
+
+params:
+  env: production
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  homeInfoParams:
+    title: "Hi there \U0001F44B"
+    content: Welcome to my blog!
+
+  socialIcons:
+    - name: linkedin
+      url: https://seguri.dev/ln
+    - name: github
+      url: https://seguri.dev/gh
+    - name: keybase
+      url: https://keybase.io/seguri
+
+  editPost:
+    URL: "https://github.com/seguri/blog/tree/main/content"
+    Text: "Suggest Changes"
+    appendFilePath: true

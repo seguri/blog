@@ -9,6 +9,19 @@ enableEmoji: true
 minify:
   minifyOutput: true
 
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+menu:
+  main:
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 10
+
 params:
   env: production
   defaultTheme: auto

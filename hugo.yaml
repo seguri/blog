@@ -57,3 +57,7 @@ params:
     URL: "https://github.com/seguri/blog/tree/main/content"
     Text: "Suggest Changes"
     appendFilePath: true
+
+services:
+  googleAnalytics:
+    id: "G-G80ED4G4E2"

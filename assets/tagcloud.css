@@ -1,0 +1,35 @@
+.first-entry {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media (max-width: 428px) {
+  .first-entry {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.home-info-container {
+  min-width: 186px;
+  flex-grow: 1;
+}
+
+.tagcloud-container {
+  min-width: 210px;
+}
+
+.tagcloud {
+  position: relative;
+  width: 210px;
+  height: 200px;
+}
+
+.tagcloud--item {
+  position: absolute;
+  top: 100px;
+  left: 105px;
+  font-size: 16px;
+}

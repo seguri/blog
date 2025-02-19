@@ -6,7 +6,7 @@ date: 2024-11-21T21:00:00+01:00
 **Welcome to my blog!**
 
 The first post will of course be about how I set up this blog.
-I found [this guide](https://theplaybook.dev/docs/deploy-hugo-to-github-pages/) by David Hwang and decided to give it a try.
+I found [this guide](https://web.archive.org/https://theplaybook.dev/docs/deploy-hugo-to-github-pages/) by David Hwang and decided to give it a try.
 
 I made very few changes to the first part of the guide:
 

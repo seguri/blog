@@ -1,9 +1,12 @@
+{{- /* Footer custom content area start */ -}}
 {{ with resources.Get "tagcloud.css" }}
-  <link rel="stylesheet" href="{{ .RelPermalink }}">
+<link rel="stylesheet" href="{{ .RelPermalink }}">
 {{ end }}
 {{ with resources.Get "TagCloud.min.js" }}
-  <script type="text/javascript" src="{{ .RelPermalink }}"></script>
+<script type="text/javascript" src="{{ .RelPermalink }}"></script>
 {{ end }}
 {{ with resources.Get "TagCloudConfig.js" }}
-  <script type="text/javascript" src="{{ .RelPermalink }}"></script>
+<script type="text/javascript" src="{{ .RelPermalink }}"></script>
 {{ end }}
+<script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+{{- /* Footer custom content area end */ -}}

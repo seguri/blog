@@ -17,10 +17,14 @@ outputs:
 
 menu:
   main:
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 10
     - identifier: search
       name: Search
       url: /search/
-      weight: 10
+      weight: 20
 
 params:
   env: production
